@@ -40,6 +40,6 @@ int n,m;
 cout<<"Introduzca el número al cual quiere calcular el factorial"<<endl;
 cin>>n;
 m=fact(n);
-cout<<"El factorial es " << m << endl;
+cout<<"El factorial de "<< n <<" es "<< m << endl;
 
 };
