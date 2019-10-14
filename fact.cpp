@@ -4,14 +4,14 @@
 
 using namespace std;
 //Declaración de la función
-int fact(int n);
+double fact(int n);
 
 //Implementación de la función
-int fact(int n)
+double fact(int n)
  {
 	
-	int b=n-1;
-	int a=n;
+	double b=n-1;
+	double a=n;
 	
 	if(n==0 || n==1) {
 		return 1;
@@ -31,11 +31,12 @@ int fact(int n)
 	
 }
 	
-//Programa prinicpal
+//Programa principal
 
 int main() {
 
-int n,m;
+int n;
+double m;
 
 cout<<"Introduzca el número al cual quiere calcular el factorial"<<endl;
 cin>>n;
